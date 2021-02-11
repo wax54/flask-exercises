@@ -7,6 +7,7 @@ def welcome_page():
 @app.route("/welcome/home")
 def welcome_home_page():
     return "welcome home"
+
 @app.route("/welcome/back")
 def welcome_back_page():
     return "welcome back"
